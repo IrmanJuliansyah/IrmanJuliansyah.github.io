@@ -1,3 +1,15 @@
+---
+layout: post
+title: Instalasi Perlengkapan Coding Java
+modified:
+categories:
+excerpt:
+tags: []
+image:
+  feature:
+date: 2017-11-14T07:35:10+07:00
+---
+
 # Instalasi Perlengkapan Coding Java
 Pada tutorial kali ini, saya akan menjelaskan cara instalasi perlengkapan coding java berupa :
 - Instalasi JDK 8
