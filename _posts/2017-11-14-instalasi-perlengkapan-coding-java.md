@@ -129,21 +129,28 @@ $ mysql -u root -p
 > phpMyAdmin adalah perangkat lunak bebas yang ditulis dalam bahasa pemrograman PHP yang digunakan untuk menangani administrasi MySQL. phpMyAdmin mendukung berbagai operasi MySQL, diantaranya (mengelola basis data, tabel-tabel, bidang (fields), relasi (relations), indeks, pengguna (users), perijinan (permissions), dan lain-lain).
 
 Download [PhpMyAdmin](https://www.phpmyadmin.net/) pilih yang phpMyAdmin-4.5.2-all-languages.tar.xz kemudian extrak dan rename foldernya dengan phpmyadmin, hasilnya ektraknya silahkan anda copy ke folder /var/www/html/ kemudian akses pada http://127.0.0.1/phpmyadmin/ maka akan muncul halaman phpmyadmin seperti berikut ini.
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 ![php.png](../images/php.png)
+
 arahkan ke web browser
+
 ```sh
 127.0.0.1/phpmyadmin
 ```
+
 ![phpmyadmin.png](../images/phpmyadmin.png)
+
 
 Jika ada error seperti ini
 
+
 ![errormysql.png](../images/errormysql.png)
 
+
 Maka lakukkan kode seperti berikut 
+
 ```sh
 sudo systemctl restart apache2
 ```
+
 Arahkan lagi ke web browser dan berhasil :)
