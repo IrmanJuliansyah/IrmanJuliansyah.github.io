@@ -139,10 +139,11 @@ arahkan ke web browser
 ![phpmyadmin.png](../images/phpmyadmin.png)
 
 Jika ada error seperti ini
+
 ![errormysql.png](../images/errormysql.png)
+
 Maka lakukkan kode seperti berikut 
 ```sh
 sudo systemctl restart apache2
 ```
 Arahkan lagi ke web browser dan berhasil :)
-
